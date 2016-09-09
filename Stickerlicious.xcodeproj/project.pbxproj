@@ -13,6 +13,16 @@
 		548B89271D825302000D893C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B89261D825302000D893C /* MessagesViewController.swift */; };
 		548B892A1D825302000D893C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548B89281D825302000D893C /* MainInterface.storyboard */; };
 		548B892C1D825302000D893C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548B892B1D825302000D893C /* Assets.xcassets */; };
+		548B89411D825CCF000D893C /* CandyCane.png in Resources */ = {isa = PBXBuildFile; fileRef = 548B89381D825CCF000D893C /* CandyCane.png */; };
+		548B89421D825CCF000D893C /* Caramel.png in Resources */ = {isa = PBXBuildFile; fileRef = 548B89391D825CCF000D893C /* Caramel.png */; };
+		548B89431D825CCF000D893C /* ChocolateBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 548B893A1D825CCF000D893C /* ChocolateBar.png */; };
+		548B89441D825CCF000D893C /* ChocolateChip.png in Resources */ = {isa = PBXBuildFile; fileRef = 548B893B1D825CCF000D893C /* ChocolateChip.png */; };
+		548B89451D825CCF000D893C /* DarkChocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = 548B893C1D825CCF000D893C /* DarkChocolate.png */; };
+		548B89461D825CCF000D893C /* GummiBear.png in Resources */ = {isa = PBXBuildFile; fileRef = 548B893D1D825CCF000D893C /* GummiBear.png */; };
+		548B89471D825CCF000D893C /* JawBreaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 548B893E1D825CCF000D893C /* JawBreaker.png */; };
+		548B89481D825CCF000D893C /* Lollipop.png in Resources */ = {isa = PBXBuildFile; fileRef = 548B893F1D825CCF000D893C /* Lollipop.png */; };
+		548B89491D825CCF000D893C /* SourCandy.png in Resources */ = {isa = PBXBuildFile; fileRef = 548B89401D825CCF000D893C /* SourCandy.png */; };
+		548B894B1D825D4C000D893C /* CandyBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B894A1D825D4C000D893C /* CandyBrowserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		548B89291D825302000D893C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		548B892B1D825302000D893C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		548B892D1D825302000D893C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		548B89381D825CCF000D893C /* CandyCane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CandyCane.png; sourceTree = "<group>"; };
+		548B89391D825CCF000D893C /* Caramel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Caramel.png; sourceTree = "<group>"; };
+		548B893A1D825CCF000D893C /* ChocolateBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChocolateBar.png; sourceTree = "<group>"; };
+		548B893B1D825CCF000D893C /* ChocolateChip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChocolateChip.png; sourceTree = "<group>"; };
+		548B893C1D825CCF000D893C /* DarkChocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkChocolate.png; sourceTree = "<group>"; };
+		548B893D1D825CCF000D893C /* GummiBear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GummiBear.png; sourceTree = "<group>"; };
+		548B893E1D825CCF000D893C /* JawBreaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JawBreaker.png; sourceTree = "<group>"; };
+		548B893F1D825CCF000D893C /* Lollipop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lollipop.png; sourceTree = "<group>"; };
+		548B89401D825CCF000D893C /* SourCandy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SourCandy.png; sourceTree = "<group>"; };
+		548B894A1D825D4C000D893C /* CandyBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyBrowserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +122,30 @@
 		548B89251D825302000D893C /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				548B89371D825CC8000D893C /* Resources */,
 				548B89261D825302000D893C /* MessagesViewController.swift */,
 				548B89281D825302000D893C /* MainInterface.storyboard */,
 				548B892B1D825302000D893C /* Assets.xcassets */,
 				548B892D1D825302000D893C /* Info.plist */,
+				548B894A1D825D4C000D893C /* CandyBrowserViewController.swift */,
 			);
 			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		548B89371D825CC8000D893C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				548B89381D825CCF000D893C /* CandyCane.png */,
+				548B89391D825CCF000D893C /* Caramel.png */,
+				548B893A1D825CCF000D893C /* ChocolateBar.png */,
+				548B893B1D825CCF000D893C /* ChocolateChip.png */,
+				548B893C1D825CCF000D893C /* DarkChocolate.png */,
+				548B893D1D825CCF000D893C /* GummiBear.png */,
+				548B893E1D825CCF000D893C /* JawBreaker.png */,
+				548B893F1D825CCF000D893C /* Lollipop.png */,
+				548B89401D825CCF000D893C /* SourCandy.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +239,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548B89471D825CCF000D893C /* JawBreaker.png in Resources */,
+				548B89431D825CCF000D893C /* ChocolateBar.png in Resources */,
+				548B89481D825CCF000D893C /* Lollipop.png in Resources */,
+				548B89461D825CCF000D893C /* GummiBear.png in Resources */,
 				548B892C1D825302000D893C /* Assets.xcassets in Resources */,
+				548B89451D825CCF000D893C /* DarkChocolate.png in Resources */,
+				548B89491D825CCF000D893C /* SourCandy.png in Resources */,
+				548B89411D825CCF000D893C /* CandyCane.png in Resources */,
 				548B892A1D825302000D893C /* MainInterface.storyboard in Resources */,
+				548B89441D825CCF000D893C /* ChocolateChip.png in Resources */,
+				548B89421D825CCF000D893C /* Caramel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				548B89271D825302000D893C /* MessagesViewController.swift in Sources */,
+				548B894B1D825D4C000D893C /* CandyBrowserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
